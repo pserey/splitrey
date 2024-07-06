@@ -1,0 +1,47 @@
+meta:
+  engine: 4.0.2
+  name: splitrey
+  author: pserey
+  url: https://github.com/pserey/splitrey
+  version: 0.2
+points:
+  zones:
+    main:
+      rows:
+        bottom:
+        home:
+        top:
+      columns:
+        outer:
+        pinky:
+          key.stagger: 5
+        ring:
+          key.stagger: 4
+        middle:
+          key.stagger: 3
+        index:
+          key.stagger: -2
+        inner:
+          key.stagger: -5
+    thumb:
+      anchor:
+        ref: main_inner_bottom
+        shift: [-19, -22]
+      rows:
+      columns:
+        outer:
+          key.splay: 0
+        home:
+          key.splay: -10
+          key.shift: [3.3, -1]
+        inner:
+          key.splay: -28
+          key.shift: [10, -4]
+outlines:
+  case:
+    - what: rectangle
+      where: true
+      asym: source
+      size: [26, 26]
+      corner: 0
+      fillet: 0
